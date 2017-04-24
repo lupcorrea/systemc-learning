@@ -1,0 +1,13 @@
+#ifndef _ADRESSES_
+#define _ADRESSES_
+
+#define INPUT_MEMORY_START 0x3e84
+#define INPUT_MEMORY_END 0x7d05
+
+#define MAP_MEMORY_START 0x00
+#define MAP_MEMORY_END 0x3e81
+
+#define OUTPUT_MEMORY_START
+#define OUTPUT_MEMORY_END
+
+#endif
