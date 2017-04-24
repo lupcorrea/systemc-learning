@@ -1,4 +1,4 @@
-# Arithmetic Unit
+# Simple "Hashing"
 
 ## Brief Description and Credits
 
