@@ -1,4 +1,4 @@
-# Arithmetic Unit
+# Memory Transfer Manager
 
 ## Brief Description and Credits
 
