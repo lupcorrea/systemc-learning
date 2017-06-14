@@ -90,7 +90,7 @@ void simple_bus_master_blocking::main_action() {
     printf ("\n[%s] Buffer before reading destination memory:\n", sc_time_stamp().to_string().c_str());
     for (int i = 0; i < dataSize; i++) printf ("[%d] %d\n", i, buffer [i]);
     
-    /* Read the origin memory into the buffer */
+    /* Read the destination memory into the buffer */
     status = bus_port->burst_read (m_unique_priority, buffer, 0x3e84, dataSize, m_lock);
     if (status == SIMPLE_BUS_ERROR)
 	   sb_fprintf(stdout, "%s %s : blocking-read failed at address %x\n",
